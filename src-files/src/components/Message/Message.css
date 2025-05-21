@@ -1,0 +1,30 @@
+.message-wrapper {
+    margin-bottom: 0px;
+    height: 30px;
+}
+
+.message {
+    font-size: 26px;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+
+/* media queries */
+
+@media (max-width: 961px) {}
+
+@media (max-width: 768px) {
+    .message-wrapper {
+        height: 24px;
+        text-align: center;
+    }
+    .message {
+        font-size: 20px;
+        line-height: 20px;
+    }
+}
+
+@media (max-width: 590px) {}
+
+@media (max-width: 370px) {}

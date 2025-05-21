@@ -1,0 +1,56 @@
+.counter__btn {
+    padding: 10px 20px;
+    font-family: inherit;
+    font-size: 24px;
+    line-height: 28px;
+    font-weight: 400;
+    border: none;
+    border-radius: 6px;
+    color: #ffffff;
+    background-color: #0094FF;
+    cursor: pointer;
+    transition: background .3s linear;
+}
+
+.btn__short {
+    width: 70px;
+}
+
+.counter__btn:active {
+    background-color: #003ce2;
+}
+
+button.counter__btn:disabled {
+    transition: background .0s linear;
+    opacity: 0.6;
+}
+
+
+/* media queries */
+
+@media (hover: hover) {
+    .counter__btn:enabled:hover {
+        background-color: #003ce2;
+    }
+    .counter__btn:hover {
+        background-color: #c0c0c0;
+    }
+}
+
+@media (max-width: 961px) {}
+
+@media (max-width: 768px) {
+    .counter__btn {
+        font-size: 20px;
+        line-height: 24px;
+    }
+}
+
+@media (max-width: 460px) {
+    .counter__btn {
+        font-size: 16px;
+        line-height: 20px;
+    }
+}
+
+@media (max-width: 370px) {}

@@ -1,0 +1,29 @@
+.counter__display-value {
+    margin-bottom: 20px;
+    height: 70px;
+}
+
+.counter__display-value p {
+    margin-top: 10px;
+    padding: 10px 30px;
+    display: inline-block;
+    font-size: 36px;
+    line-height: 40px;
+    font-weight: 600;
+    background-color: #ffffff;
+}
+
+
+/* media queries */
+
+@media (max-width: 961px) {}
+
+@media (max-width: 768px) {
+    .counter__display-value {
+        text-align: center;
+    }
+}
+
+@media (max-width: 590px) {}
+
+@media (max-width: 370px) {}
